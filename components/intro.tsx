@@ -43,20 +43,6 @@ export default function Intro() {
             "
             />
           </motion.div>
-
-          <motion.span
-            className="absolute bottom-0 right-0 text-4x1 "
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-            👋
-          </motion.span>
         </div>
       </div>
       <motion.h1
@@ -64,7 +50,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Furkan Karakus.</span> I'm a{" "}
+        <span className="font-bold">Hello, I'm Furkan.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">1 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
