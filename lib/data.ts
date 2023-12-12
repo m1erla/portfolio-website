@@ -31,48 +31,52 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
+  {
+    name: "Feedback",
+    hash: "#feedback",
+  }
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Manager",
+    location: "Adana, TR",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I ran my own grocery market just a year. After a year i have sold my grocery market.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2019 - 2020",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Graduated bootcamp",
+    location: "Adana, TR",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I enrolled patika.dev full-stack developer bootcamp for about 6 months. After six months i have graduated from bootcamp and i received my certificate.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Back-End Developer",
+    location: "Adana, TR",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a back-end developer working as a freelancer. My stack includes Java, Spring Boot, Docker, Render Cloud Server, PostqreSql. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Car Registeration System",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I created a car registration site as a final project to graduate from bootcamp.",
+    tags: ["Java", "Spring Boot", "PostqreSql", "React", "JavaScript", "Node.js", "CSS", "Mui Material"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "E-commerce",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "E-commerce website. It has a register, login system. It shows products, can able to add to basket, add image of product on this website and also it has a admin panel that can able to crud process all products.",
+    tags: ["React", "JavaScript", "Node.js", "CSS", "Redux"],
     imageUrl: rmtdevImg,
   },
   {
@@ -85,15 +89,16 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "Java",
+  "Spring Boot",
+  "Docker",
+  "React",
+  "Next.js",
+  "Node.js",
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
-  "Java",
-  "Spring Boot",
-  "React",
-  "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
   "MongoDB",
@@ -102,5 +107,22 @@ export const skillsData = [
   "PostgreSQL",
   "Python",
   "Django",
+  "C#",
+  ".Net",
   "Framer Motion",
+] as const;
+
+export const softskillsData= [
+  "Passion and Dedication",
+  "Adaptability",
+  "Proactivity",
+  "Research Orientation",
+  "Continuous Learner",
+  "Time Management",
+  "Team Collaboration",
+  "Strong Sense of Responsibility",
+  "Attention to Detail",
+  "Agile",
+  "Scrum",
+  "Kanban"
 ] as const;
