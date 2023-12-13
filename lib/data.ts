@@ -2,10 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-
+import carregister from "@/public/after-login-home.png";
+import ecommerce from "@/public/e-commerce.png"
+import weather from "@/public/weather-ss.png";
+import billgates from "@/public/bill-ss.png";
+import node from "@/public/nodes-app.png";
 export const links = [
   {
     name: "Home",
@@ -24,8 +25,16 @@ export const links = [
     hash: "#skills",
   },
   {
+    name: "Soft-Skills",
+    hash: "#soft-skills",
+  },
+  {
     name: "Experience",
     hash: "#experience",
+  },
+  {
+    name: "Education",
+    hash: "#education",
   },
   {
     name: "Contact",
@@ -35,6 +44,7 @@ export const links = [
     name: "Feedback",
     hash: "#feedback",
   }
+
 ] as const;
 
 export const experiencesData = [
@@ -43,25 +53,42 @@ export const experiencesData = [
     location: "Adana, TR",
     description:
       "I ran my own grocery market just a year. After a year i have sold my grocery market.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(CgWorkAlt),
     date: "2019 - 2020",
   },
   {
     title: "Graduated bootcamp",
-    location: "Adana, TR",
+    location: "Adana, TR, Remote",
     description:
-      "I enrolled patika.dev full-stack developer bootcamp for about 6 months. After six months i have graduated from bootcamp and i received my certificate.",
-    icon: React.createElement(CgWorkAlt),
+      "I enrolled for Patika.dev 6-month full-stack developer bootcamp. Six months later I graduated from bootcamp and received my certification.",
+    icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
   {
     title: "Back-End Developer",
-    location: "Adana, TR",
+    location: "Adana, TR, Remote",
     description:
       "I'm now a back-end developer working as a freelancer. My stack includes Java, Spring Boot, Docker, Render Cloud Server, PostqreSql. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2023 - present",
   },
+] as const;
+
+export const educationData =[
+  {
+    title: "Erzurum Ataturk University",
+    departmant: "Civil Aviation",
+    description: "I graduated from university and received my associate degree. My department was Civil Aviation",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019 - 2022",
+  },
+  {
+    title: "Eskisehir Anadolu University",
+    departmant: "Management Information Systems",
+    description: "I am currently in my 4th year at university, and I will receive my bachelor's degree this year. My Department Management Information Systems",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023 - present",
+  }
 ] as const;
 
 export const projectsData = [
@@ -70,21 +97,35 @@ export const projectsData = [
     description:
       "I created a car registration site as a final project to graduate from bootcamp.",
     tags: ["Java", "Spring Boot", "PostqreSql", "React", "JavaScript", "Node.js", "CSS", "Mui Material"],
-    imageUrl: corpcommentImg,
+    imageUrl: carregister,
   },
   {
     title: "E-commerce",
     description:
       "E-commerce website. It has a register, login system. It shows products, can able to add to basket, add image of product on this website and also it has a admin panel that can able to crud process all products.",
     tags: ["React", "JavaScript", "Node.js", "CSS", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: ecommerce,
   },
   {
-    title: "Word Analytics",
+    title: "Weather App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A weather app is a digital application that provides users with real-time and forecasted weather information for a specific location.",
+    tags: ["React", "Node.js", "JavaScript", "Forecast", "CSS"],
+    imageUrl: weather,
+  },
+  {
+    title: "Spend Bill Gates's Money",
+    description:
+      "A money spending app. You can buy any product you want and spend Bill Gates' money as you wish.",
+    tags: ["React", "Node.js", "Redux", "CSS", "Bootstrap"],
+    imageUrl: billgates,
+  },
+  {
+    title: "Node App",
+    description:
+      "Node app is a versatile and user-friendly application that empowers users to manage their tasks and notes efficiently.",
+    tags: ["React", "Node.js", "Redux", "CSS", "Bootstrap"],
+    imageUrl: node,
   },
 ] as const;
 
