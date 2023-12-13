@@ -7,6 +7,7 @@ import ecommerce from "@/public/e-commerce.png"
 import weather from "@/public/weather-ss.png";
 import billgates from "@/public/bill-ss.png";
 import node from "@/public/nodes-app.png";
+import wallet from "@/public/wallet.png";
 export const links = [
   {
     name: "Home",
@@ -96,15 +97,25 @@ export const projectsData = [
     title: "Car Registeration System",
     description:
       "I created a car registration site as a final project to graduate from bootcamp.",
-    tags: ["Java", "Spring Boot", "PostqreSql", "React", "JavaScript", "Node.js", "CSS", "Mui Material"],
+    tags: ["Java", "Spring Boot", "PostqreSql", "React", "Redux", "JavaScript", "Node.js", "CSS", "Mui Material"],
     imageUrl: carregister,
+    projectLink: "https://github.com/m1erla/car-registration-system"
   },
   {
     title: "E-commerce",
     description:
       "E-commerce website. It has a register, login system. It shows products, can able to add to basket, add image of product on this website and also it has a admin panel that can able to crud process all products.",
-    tags: ["React", "JavaScript", "Node.js", "CSS", "Redux"],
+    tags: ["React", "JavaScript", "Node.js", "CSS", "Context"],
     imageUrl: ecommerce,
+    projectLink: "https://github.com/m1erla/e-commerce"
+  },
+  {
+    title: "Chiliz Web3",
+    description:
+      "Chiliz web3 project is an innovative platform that harnesses the power of blockchain technology, particularly utilizing Moralis and Thirdweb, to provide users with seamless access to their cryptocurrency wallets and NFT's.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Context", "CSS", "Moralis", "Thirdweb"],
+    imageUrl: wallet,
+    projectLink: "https://github.com/m1erla/Chiliz-Web3-Bootcamp-Final-Project"
   },
   {
     title: "Weather App",
@@ -112,20 +123,24 @@ export const projectsData = [
       "A weather app is a digital application that provides users with real-time and forecasted weather information for a specific location.",
     tags: ["React", "Node.js", "JavaScript", "Forecast", "CSS"],
     imageUrl: weather,
+    projectLink: "https://github.com/m1erla/weather-app"
   },
+ 
   {
     title: "Spend Bill Gates's Money",
     description:
       "A money spending app. You can buy any product you want and spend Bill Gates' money as you wish.",
-    tags: ["React", "Node.js", "Redux", "CSS", "Bootstrap"],
+    tags: ["React", "Node.js", "Redux", "JavaScript", "Bootstrap"],
     imageUrl: billgates,
+    projectLink: "https://github.com/m1erla/reactPatika/tree/main/React-Lessons/bill-gates-money"
   },
   {
     title: "Node App",
     description:
       "Node app is a versatile and user-friendly application that empowers users to manage their tasks and notes efficiently.",
-    tags: ["React", "Node.js", "Redux", "CSS", "Bootstrap"],
+    tags: ["React", "Node.js", "Redux", "JavaScript", "Bootstrap"],
     imageUrl: node,
+    projectLink: "https://github.com/m1erla/nodes-app"
   },
 ] as const;
 
