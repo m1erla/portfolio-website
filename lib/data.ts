@@ -110,7 +110,7 @@ export const projectsData = [
     projectLink: "https://github.com/m1erla/e-commerce"
   },
   {
-    title: "Chiliz Web3",
+    title: "Web3",
     description:
       "Chiliz web3 project is an innovative platform that harnesses the power of blockchain technology, particularly utilizing Moralis and Thirdweb, to provide users with seamless access to their cryptocurrency wallets and NFT's.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "Context", "CSS", "Moralis", "Thirdweb"],
