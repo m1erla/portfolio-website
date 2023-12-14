@@ -80,14 +80,14 @@ export const educationData =[
     title: "Erzurum Atatürk University",
     departmant: "Civil Aviation",
     description: "I graduated from university and received my associate degree. My department was Civil Aviation",
-    icon: React.createElement(FaUserGraduate),
+    image: React.createElement(FaUserGraduate),
     date: "2019 - 2022",
   },
   {
     title: "Eskisehir Anadolu University",
     departmant: "Management Information Systems",
     description: "I am currently in my 4th year at university, and I will receive my bachelor's degree this year. My Department Management Information Systems",
-    icon: React.createElement(LuGraduationCap),
+    image: React.createElement(LuGraduationCap),
     date: "2023 - present",
   }
 ] as const;
