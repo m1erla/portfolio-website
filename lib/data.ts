@@ -77,7 +77,7 @@ export const experiencesData = [
 
 export const educationData =[
   {
-    title: "Erzurum Ataturk University",
+    title: "Erzurum Atatürk University",
     departmant: "Civil Aviation",
     description: "I graduated from university and received my associate degree. My department was Civil Aviation",
     icon: React.createElement(FaUserGraduate),
