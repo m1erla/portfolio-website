@@ -39,9 +39,9 @@ export default function About() {
         <span className="italic">When I'm not coding</span>, I enjoy playing
         video games, watching movies, and doing workout. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
+        preparing for the{" "}
         <span className="font-medium">
-          Chiliz web3 and enrolled Harvard CS50
+          IELTS exam for my English and also learning Machine Learning.
         </span>
         .
       </p>

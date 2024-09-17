@@ -88,7 +88,7 @@ export const educationData =[
     departmant: "Management Information Systems",
     description: "I am currently in my 4th year at university, and I will receive my bachelor's degree this year. My Department Management Information Systems",
     image: React.createElement(LuGraduationCap),
-    date: "2023 - present",
+    date: "2022 - 2024",
   }
 ] as const;
 
@@ -154,7 +154,6 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
   "Git",
   "Tailwind",
   "MongoDB",
@@ -162,10 +161,9 @@ export const skillsData = [
   "Express",
   "PostgreSQL",
   "Python",
-  "Django",
+  "Flask",
   "C#",
   ".Net",
-  "Framer Motion",
 ] as const;
 
 export const softskillsData= [
