@@ -19,18 +19,33 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Civil Aviation</span>, I decided to pursue
-        my passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        bulding and creation aspect. I <span className="underline">love</span>{" "}
-        the feeling of the end result i build. My core stack is{" "}
+        Software developer specializing in backend development with Java.{" "}
         <span className="font-medium">
-          Java, Spring Boot, React, JavaScript and PostqreSql
+          As a Management Information Systems graduate,
         </span>
-        . I am also familiar with TypeScript, Node.js and Next.js. I am always
-        looking to learn new technologies. I am currently looking for a{" "}
+        , I have professional experience in developing web applications. I work
+        with my passion for technology and the aim of constantly improving
+        myself. <span className="font-medium">Currently,</span>.{" "}
+        <span className="italic">
+          I develop efficient and scalable web applications as a Backend
+          developer.
+        </span>{" "}
+        I have a strong and independent ability to work together successfully as
+        a team. My business management background enables me to understand both
+        the technical and business capabilities of software development.
+        <span className="font-medium"> I am actively learning German</span> and
+        serving in Germany's technology sector. A variety of solutions related
+        not only to programming but also to business communications, marketing
+        and customer relations make me a well-rounded developer who understands
+        both code and business needs. I continue to contribute to projects that
+        are open to new challenges and developed at an international level. My
+        core stack is{" "}
+        <span className="font-medium">
+          Java, Spring Boot, Docker, React, JavaScript, Cursor AI, MySQL and
+          PostqreSql
+        </span>
+        . I am also familiar with Kotlin, TypeScript, Node.js and Next.js. I am
+        always looking to learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
@@ -41,7 +56,8 @@ export default function About() {
         <span className="font-medium">learning new things</span>. I am currently
         preparing for the{" "}
         <span className="font-medium">
-          IELTS exam for my English and also learning Machine Learning.
+          IELTS exam for my English and also learning German and how to use AI
+          with my core stack.
         </span>
         .
       </p>

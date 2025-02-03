@@ -31,14 +31,14 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/images/image.jpg"
+              src="/images/images.jpg"
               alt="Furkan Portrait"
               quality="95"
-              width="192"
-              height="192"
+              width="191"
+              height="191"
               priority={true}
-              className="h-24 w-24 rounded-full 
-            object-cover border-[0.35rem]
+              className="h-15 w-30 rounded-full 
+            object-cover border-[0.25rem]
             border-white shadow-xl 
             "
             />
@@ -51,10 +51,13 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Furkan.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">1 years</span> of experience. I enjoy
+        <span className="font-bold">Junior Software Engineer</span> with{" "}
+        <span className="font-bold">3 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js), Java (Spring Boot)</span>.
+        <span className="underline">
+          Kotlin, React (Next.js), Java (Spring Boot)
+        </span>
+        .
       </motion.h1>
 
       <motion.div
@@ -83,7 +86,15 @@ export default function Intro() {
           href="/Furkan KARAKUS CV_EN.pdf"
           download
         >
-          Download CV{" "}
+          Download CV_EN{" "}
+          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+        </a>
+        <a
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          href="/Furkan KARAKUS CV_TR.pdf"
+          download
+        >
+          Download CV_TR{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
         <a
