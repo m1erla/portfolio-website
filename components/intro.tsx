@@ -37,7 +37,7 @@ export default function Intro() {
               width="191"
               height="191"
               priority={true}
-              className="h-15 w-30 rounded-full 
+              className="h-15 w-25 rounded-full 
             object-cover border-[0.25rem]
             border-white shadow-xl 
             "
